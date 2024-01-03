@@ -3,6 +3,16 @@ entries:
   metallb-config:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-01-03T21:54:07.738238511Z"
+    description: A Helm chart for Kubernetes
+    digest: 92184c43e2feb673df8324a1279a884e58c38e7f7fa2d7d1ca397cefa2237c2a
+    name: metallb-config
+    type: application
+    urls:
+    - https://github.com/markussiebert/helm-charts/releases/download/metallb-config-0.1.1/metallb-config-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-01-03T21:37:41.417756555Z"
     description: A Helm chart for Kubernetes
     digest: d1bee80c0b08d80e2bf90c7052b563cfbf574a45d4cea8daaaeb6ad8cc33ff37
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/markussiebert/helm-charts/releases/download/metallb-config-0.1.0/metallb-config-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-03T21:37:41.417763629Z"
+generated: "2024-01-03T21:54:07.738246116Z"
