@@ -1,9 +1,0 @@
-{{- range $name, $value := .Values.l2Advertisements }}
-apiVersion: metallb.io/v1beta1
-kind: IPAddressPool
-metadata:
-  name: {{ $name }}
-spec:
-  {{ toYaml $value.spec | nindent 4 }}
----
-{{- end }}
