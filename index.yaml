@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  k8s-resources:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-03T22:37:20.001546522Z"
+    description: A Helm chart for Kubernetes
+    digest: 16f21d97f4999212199cfd0781db3af596b15cc74a75bed7fc37048281c836ed
+    name: k8s-resources
+    type: application
+    urls:
+    - https://github.com/markussiebert/helm-charts/releases/download/k8s-resources-0.1.0/k8s-resources-0.1.0.tgz
+    version: 0.1.0
   metallb-config:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -31,4 +42,4 @@ entries:
     urls:
     - https://github.com/markussiebert/helm-charts/releases/download/metallb-config-0.1.0/metallb-config-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-03T22:01:27.608102816Z"
+generated: "2024-01-03T22:37:20.001905984Z"
